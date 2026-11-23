@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+
+
 app.get("/page1", (req, res) => {
   res.send(`Hello Wolrd`);
 });
