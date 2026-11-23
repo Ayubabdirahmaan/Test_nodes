@@ -13,5 +13,5 @@ app.get("/process", (req, res) => {
   res.send(`Hi <b> ${name} i will call you ${tell} </b>`);
 });
 app.listen(3000, () => {
-  console.log("Server is Runing");
+  console.log("Server is Runing ");
 });
