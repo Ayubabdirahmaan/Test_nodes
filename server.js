@@ -10,7 +10,7 @@ app.get("/page2", (req, res) => {
 app.get("/process", (req, res) => {
   name = req.query.txt1;
   tell = req.query.txt2;
-  res.send(`Hi <b> ${name} i will call you ${tell} </b>`);
+  res.send(`Hi <b> ${name} i will call you. ${tell} </b>`);
 });
 app.listen(3000, () => {
   console.log("Server is Runing ");
